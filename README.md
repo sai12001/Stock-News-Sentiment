@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# Stock-News-Sentiment
-Stock News Sentiment (Azure Data Engineering Mini Project)
-=======
 # Stock News Sentiment (Azure Data Engineering Mini Project)
 
 This project is an end-to-end **data engineering pipeline** that:
@@ -16,13 +12,7 @@ It’s a great beginner-friendly project because it covers the real workflow: **
 
 ## Architecture diagram (high level)
 
-```mermaid
-flowchart LR
-  A[NewsAPI\n(HTTP JSON)] -->|extract_news.py| B[Azure Blob Storage\nContainer: raw]
-  B -->|databricks_process.py\n(or local Python)| C[Sentiment Analysis\nTransformers + Torch]
-  C -->|SQLAlchemy + pyodbc| D[Azure SQL Database\nTable: stock_news_sentiment]
-  D --> E[Power BI Dashboard]
-```
+<img src="../AI.jpg" alt="Architecture diagram" width="650" />
 
 ## Repository contents
 
@@ -186,4 +176,4 @@ Connect Power BI to Azure SQL and build visuals on:
 
 - This repo intentionally keeps the pipeline “small” and readable.
 - Production-grade improvements would include: deduping articles, incremental loads, partitioned folders in blob, and a job scheduler.
->>>>>>> 2910e050 (Add Azure stock news sentiment pipeline docs and config)
+
