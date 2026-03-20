@@ -1,0 +1,14 @@
+### NewsAPI
+NEWS_API_KEY="YOUR_NEWSAPI_KEY"
+NEWS_QUERY="finance OR stock OR market"
+
+### Azure Blob Storage
+AZURE_STORAGE_CONNECTION_STRING="YOUR_AZURE_STORAGE_CONNECTION_STRING"
+AZURE_STORAGE_CONTAINER_RAW="raw"
+
+### Azure SQL Database
+AZURE_SQL_SERVER="your_server_name.database.windows.net"
+AZURE_SQL_DATABASE="your_database_name"
+AZURE_SQL_DRIVER="ODBC Driver 18 for SQL Server"
+AZURE_SQL_USER="your_sql_username"
+AZURE_SQL_PASSWORD="your_sql_password"

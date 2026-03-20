@@ -12,7 +12,7 @@ It’s a great beginner-friendly project because it covers the real workflow: **
 
 ## Architecture diagram (high level)
 
-<img src="AI.jpg" alt="Architecture diagram" width="650" />
+![Architecture diagram](AI.jpg)
 
 ## Repository contents
 
